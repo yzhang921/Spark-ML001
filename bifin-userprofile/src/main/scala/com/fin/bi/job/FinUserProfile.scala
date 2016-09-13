@@ -1,8 +1,8 @@
-package com.ctrip.fin.bi.job
+package com.fin.bi.job
 
 import java.text.SimpleDateFormat
 
-import com.ctrip.fin.bi.bo.{Order, UserProfile}
+import com.fin.bi.bo.{Order, UserProfile}
 import org.apache.spark.sql.hive.HiveContext
 import org.apache.spark.{SparkConf, SparkContext}
 import org.json4s.DefaultFormats

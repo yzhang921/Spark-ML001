@@ -1,4 +1,4 @@
-package com.ctrip.fin.bi.bo
+package com.fin.bi.bo
 
 import java.text.SimpleDateFormat
 
