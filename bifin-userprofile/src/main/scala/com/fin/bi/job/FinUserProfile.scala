@@ -28,7 +28,7 @@ object FinUserProfile {
     val sc = new SparkContext(conf)
     val sqlContext = new HiveContext(sc)
 
-    val paymentOrder = sqlContext.s ql(
+    val paymentOrder = sqlContext.sql(
       """
         |SELECT a.uid, orderid, paymentwayidg, creationdate, issubmitg, applypays, amount,
         |       formattedpaytype, formattedsubpaytype
