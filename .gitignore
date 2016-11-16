@@ -1,4 +1,4 @@
 .idea
-Spark-ML001.iml
+*.iml
 target/
 .worksheet

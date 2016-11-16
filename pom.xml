@@ -18,6 +18,7 @@
         <module>woe</module>
         <module>ls01</module>
         <module>dg-mllib</module>
+        <module>ml-pipeline</module>
     </modules>
 
     <properties>
